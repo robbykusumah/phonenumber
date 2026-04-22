@@ -1,0 +1,47 @@
+:root {
+  --background: #fff5f8;
+  --surface: #ffffff;
+  --surface-hover: #fff0f5;
+  --border: #ffd1dc;
+  --text-primary: #5c4f4f;
+  --text-secondary: #8c7b7b;
+  --accent: #ff9eaa;
+  --accent-hover: #ff7b8c;
+  --error: #ffb3b3;
+  --success: #a0e8af;
+  --focus-ring: rgba(255, 158, 170, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-quicksand), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Cute dotted paper background */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(var(--border) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
