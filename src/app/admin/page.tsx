@@ -28,7 +28,7 @@ export default async function AdminPage() {
               <tr key={num.id} style={{ borderBottom: "1px solid #ffd1dc" }}>
                 <td style={{ padding: "1rem", color: "#8c7b7b", fontSize: "0.85rem" }}>{num.id}</td>
                 <td style={{ padding: "1rem", fontWeight: "bold", color: "#5c4f4f" }}>{num.phone}</td>
-                <td style={{ padding: "1rem", color: "#8c7b7b" }}>{new Date(num.createdAt).toLocaleString("id-ID")}</td>
+                <td style={{ padding: "1rem", color: "#8c7b7b" }}>{new Date(num.createdAt).toLocaleString("id-ID", { timeZone: "Asia/Jakarta" })}</td>
               </tr>
             ))
           )}

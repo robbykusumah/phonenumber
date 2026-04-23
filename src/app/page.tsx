@@ -72,7 +72,7 @@ export default function Home() {
           <div className={styles.header} style={{ marginBottom: 0 }}>
             <div className={styles.icon}>👋</div>
             <h1 className={styles.maintitle}>
-              halo zara adinda prameswari!
+              halo zahra adinda pawestri!
             </h1>
             <p className={styles.subtitle} style={{ marginBottom: "2rem" }}>
               ada pesen nih buat kamu, mau liat gak?
@@ -95,7 +95,7 @@ export default function Home() {
               yahh...
             </h1>
             <p className={styles.subtitle} style={{ marginBottom: "2rem" }}>
-              gapapa deh, have a great day zara adinda prameswari!
+              gapapa deh, have a great day zahra adinda pawestri!
             </p>
             <button className={styles.buttonSecondary} onClick={() => setStep("intro")}>
               Kembali
